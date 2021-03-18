@@ -1,0 +1,241 @@
+nav {
+  width: 980px;
+  height: 60px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: black solid 2px;
+  margin-top: 30px;
+}
+
+.logo {
+  width: 92px;
+  height: 42px;
+  color: black;
+  border-style: solid;
+  border-width: 2px;
+  font-size: 20px;
+  letter-spacing: 1px;
+  padding-top: 20px;
+  font-family: "Gill Sans";
+}
+
+.links {
+  width: 542px;
+  height: 42px;
+  align-self: center;
+  display: flex;
+  font-size: 15px;
+  font-family: "Gill Sans";
+}
+.links a {
+  text-decoration: none;
+  color: black;
+  margin: auto;
+}
+
+.divider {
+  height: 22px;
+  margin-top: 11px;
+  width: 1px;
+  background: #79addc;
+}
+
+@media only screen and (max-width: 1060px) {
+  nav {
+    width: 100%;
+  }
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-bottom: 16px;
+}
+
+@font-face {
+  font-family: Gill;
+  src: url(fonts/GillSans.ttc);
+}
+@font-face {
+  font-family: Proxima;
+  src: url(fonts/ProximaNovaScOsfExtraCondensed.ttf);
+}
+.section-one {
+  max-width: 1280px;
+  margin: 0 auto;
+}
+.section-one .blog-header {
+  font-family: Proxima;
+  font-size: 30px;
+  font-weight: normal;
+  letter-spacing: 3px;
+  margin-top: 65px;
+  margin-left: 150px;
+}
+.section-one .blog-border {
+  width: 106px;
+  height: 1px;
+  border-bottom: 2px solid black;
+  margin-left: 150px;
+}
+.section-one .date-one {
+  width: 60px;
+  height: 60px;
+  background-color: #79addc;
+  margin-top: 32px;
+  margin-left: 150px;
+}
+.section-one .date-one .day-one {
+  color: #fff;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-weight: bold;
+  font-size: 22px;
+  margin-left: 17px;
+  padding-top: 10px;
+}
+.section-one .date-one .month-one {
+  color: #fff;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 12px;
+  font-weight: lighter;
+  margin-left: 20px;
+  margin-top: 3px;
+}
+.section-one .notebook-one {
+  margin-left: 231px;
+  margin-top: -60px;
+}
+.section-one .notebook-header {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-weight: normal;
+  font-size: 15px;
+  margin-left: 231px;
+  margin-top: 20px;
+}
+.section-one .notebook-description {
+  color: #79addc;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-weight: normal;
+  font-size: 13px;
+  margin-left: 231px;
+}
+
+.section-two {
+  max-width: 1280px;
+  margin: 0 auto;
+}
+.section-two .date-one {
+  width: 60px;
+  height: 60px;
+  background-color: #79addc;
+  margin-top: 100px;
+  margin-left: 150px;
+}
+.section-two .date-one .day-one {
+  color: #fff;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-weight: bold;
+  font-size: 22px;
+  margin-left: 17px;
+  padding-top: 10px;
+}
+.section-two .date-one .month-one {
+  color: #fff;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 12px;
+  font-weight: lighter;
+  margin-left: 20px;
+  margin-top: 3px;
+}
+.section-two .notebook-two {
+  margin-left: 231px;
+  margin-top: -60px;
+}
+.section-two .notebook-header {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-weight: normal;
+  font-size: 15px;
+  margin-left: 231px;
+  margin-top: 20px;
+}
+.section-two .notebook-description {
+  color: #79addc;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-weight: normal;
+  font-size: 13px;
+  margin-left: 231px;
+}
+
+footer {
+  width: 1280px;
+  height: 100px;
+  background-color: #79addc;
+  margin: 0 auto;
+  display: flex;
+  box-sizing: border-box;
+  flex-wrap: wrap;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 108px;
+}
+
+.footerLogo {
+  width: 92px;
+  height: 42px;
+  color: white;
+  border-style: solid;
+  border-width: 2px;
+  font-size: 20px;
+  letter-spacing: 1px;
+  padding-top: 20px;
+  font-family: "Gill Sans";
+  margin-left: 56px;
+}
+
+.copyright {
+  color: white;
+  font-size: 12px;
+  font-family: "Gill Sans";
+  margin: 0;
+}
+
+.facebook {
+  width: 30px;
+  height: 30px;
+  float: right;
+  margin-left: 20px;
+}
+
+.instagram {
+  width: 30px;
+  height: 30px;
+  float: right;
+  margin-left: 20px;
+}
+
+.twitter {
+  width: 30px;
+  height: 30px;
+  float: right;
+  margin-left: 20px;
+}
+
+.socials {
+  padding-right: 90px;
+}

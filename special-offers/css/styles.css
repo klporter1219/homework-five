@@ -1,0 +1,253 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-bottom: 16px;
+}
+
+@font-face {
+  font-family: Gill;
+  src: url(fonts/GillSans.ttc);
+}
+@font-face {
+  font-family: Proxima;
+  src: url(fonts/ProximaNovaScOsfExtraCondensed.ttf);
+}
+nav {
+  width: 980px;
+  height: 60px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: black solid 2px;
+  margin-top: 30px;
+}
+
+.logo {
+  width: 92px;
+  height: 42px;
+  color: black;
+  border-style: solid;
+  border-width: 2px;
+  font-size: 20px;
+  letter-spacing: 1px;
+  padding-top: 20px;
+  font-family: "Gill Sans";
+}
+
+.links {
+  width: 542px;
+  height: 42px;
+  align-self: center;
+  display: flex;
+  font-size: 15px;
+  font-family: "Gill Sans";
+}
+.links a {
+  text-decoration: none;
+  color: black;
+  margin: auto;
+}
+
+.divider {
+  height: 22px;
+  margin-top: 11px;
+  width: 1px;
+  background: #79addc;
+}
+
+@media only screen and (max-width: 1060px) {
+  nav {
+    width: 100%;
+  }
+}
+.special-offer-header {
+  font-family: "Proxima";
+  font-size: 30px;
+  font-weight: normal;
+  letter-spacing: 5px;
+  margin-top: 65px;
+  margin-left: 195px;
+}
+
+.special-offer-line {
+  width: 199px;
+  height: 1px;
+  border-bottom: 2px solid black;
+  position: absolute;
+  margin-left: 195px;
+}
+
+.special-offer-one {
+  max-width: 1280px;
+  margin: 0 auto;
+  display: flex;
+}
+.special-offer-one .city {
+  margin-left: 150px;
+  margin-top: 36px;
+}
+.special-offer-one .spain {
+  margin-top: 41px;
+  margin-left: 20px;
+  font-family: Proxima;
+  font-size: 30px;
+  font-weight: normal;
+}
+.special-offer-one .percent-off {
+  color: #ff7d38;
+  font-family: Proxima;
+  font-size: 20px;
+  font-weight: normal;
+  margin-left: 72px;
+  margin-top: 46px;
+}
+.special-offer-one .spain-description {
+  font-size: 16px;
+  font-family: Gill;
+  font-weight: normal;
+  position: absolute;
+  margin-top: 100px;
+  margin-left: 370px;
+}
+
+.learn-more-button {
+  width: 133px;
+  height: 40px;
+  background-color: #79addc;
+  border-radius: 20px;
+  position: absolute;
+  margin-left: 370px;
+  margin-top: 283px;
+}
+.learn-more-button .learn-more {
+  color: #fff;
+  font-family: Gill;
+  font-size: 15px;
+  font-weight: normal;
+  margin-left: 20px;
+  margin-top: 11px;
+}
+
+.special-offer-two {
+  max-width: 1280px;
+  margin: 0 auto;
+  display: flex;
+}
+.special-offer-two .thailand {
+  margin-left: 150px;
+  margin-top: 60px;
+}
+.special-offer-two .thailand-header {
+  font-family: Proxima;
+  font-size: 30px;
+  font-weight: normal;
+  margin-top: 65px;
+  margin-left: 20px;
+}
+.special-offer-two .thailand-description {
+  font-family: Gill;
+  font-size: 16px;
+  font-weight: normal;
+  position: absolute;
+  margin-left: 370px;
+  margin-top: 124px;
+}
+.special-offer-two .learn-more-button2 {
+  width: 133px;
+  height: 40px;
+  background-color: #79addc;
+  border-radius: 20px;
+  position: absolute;
+  margin-left: 370px;
+  margin-top: 307px;
+}
+.special-offer-two .learn-more-button2 .learn-more {
+  color: #fff;
+  font-family: Gill;
+  font-size: 15px;
+  font-weight: normal;
+  margin-left: 20px;
+  margin-top: 11px;
+}
+.special-offer-two .percent-off2 {
+  color: #ff7d38;
+  font-family: Proxima;
+  font-size: 20px;
+  font-weight: normal;
+  margin-left: 35px;
+  margin-top: 70px;
+}
+
+footer {
+  width: 1280px;
+  height: 100px;
+  background-color: #79addc;
+  margin: 0 auto;
+  display: flex;
+  box-sizing: border-box;
+  flex-wrap: wrap;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 100px;
+}
+
+.footerLogo {
+  width: 92px;
+  height: 42px;
+  color: white;
+  border-style: solid;
+  border-width: 2px;
+  font-size: 20px;
+  letter-spacing: 1px;
+  padding-top: 20px;
+  font-family: "Gill Sans";
+  margin-left: 56px;
+}
+
+.copyright {
+  color: white;
+  font-size: 12px;
+  font-family: "Gill Sans";
+  margin: 0;
+}
+
+.facebook {
+  width: 30px;
+  height: 30px;
+  float: right;
+  margin-left: 20px;
+}
+
+.instagram {
+  width: 30px;
+  height: 30px;
+  float: right;
+  margin-left: 20px;
+}
+
+.twitter {
+  width: 30px;
+  height: 30px;
+  float: right;
+  margin-left: 20px;
+}
+
+.socials {
+  padding-right: 90px;
+}
