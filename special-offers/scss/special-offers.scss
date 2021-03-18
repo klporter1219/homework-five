@@ -1,0 +1,128 @@
+.special-offer-header {
+  font-family: "Proxima";
+  font-size: 30px;
+  font-weight: normal;
+  letter-spacing: 5px;
+  margin-top: 65px;
+  margin-left: 195px;
+}
+
+.special-offer-line {
+  width: 199px;
+  height: 1px;
+  border-bottom: 2px solid black;
+  position: absolute;
+  margin-left: 195px;
+}
+
+.special-offer-one {
+  max-width: 1280px;
+  margin: 0 auto;
+  display: flex;
+
+  .city {
+    margin-left: 150px;
+    margin-top: 36px;
+  }
+
+  .spain {
+    margin-top: 41px;
+    margin-left: 20px;
+    font-family: Proxima;
+    font-size: 30px;
+    font-weight: normal;
+  }
+
+  .percent-off {
+    color: #ff7d38;
+    font-family: Proxima;
+    font-size: 20px;
+    font-weight: normal;
+    margin-left: 72px;
+    margin-top: 46px;
+  }
+
+  .spain-description {
+    font-size: 16px;
+    font-family: Gill;
+    font-weight: normal;
+    position: absolute;
+    margin-top: 100px;
+    margin-left: 370px;
+  }
+}
+
+.learn-more-button {
+  width: 133px;
+  height: 40px;
+  background-color: #79addc;
+  border-radius: 20px;
+  position: absolute;
+  margin-left: 370px;
+  margin-top: 283px;
+
+  .learn-more {
+    color: #fff;
+    font-family: Gill;
+    font-size: 15px;
+    font-weight: normal;
+    margin-left: 20px;
+    margin-top: 11px;
+  }
+}
+
+.special-offer-two {
+  max-width: 1280px;
+  margin: 0 auto;
+  display: flex;
+
+  .thailand {
+    margin-left: 150px;
+    margin-top: 60px;
+  }
+
+  .thailand-header {
+    font-family: Proxima;
+    font-size: 30px;
+    font-weight: normal;
+    margin-top: 65px;
+    margin-left: 20px;
+  }
+
+  .thailand-description {
+    font-family: Gill;
+    font-size: 16px;
+    font-weight: normal;
+    position: absolute;
+    margin-left: 370px;
+    margin-top: 124px;
+  }
+
+  .learn-more-button2 {
+    width: 133px;
+    height: 40px;
+    background-color: #79addc;
+    border-radius: 20px;
+    position: absolute;
+    margin-left: 370px;
+    margin-top: 307px;
+
+    .learn-more {
+      color: #fff;
+      font-family: Gill;
+      font-size: 15px;
+      font-weight: normal;
+      margin-left: 20px;
+      margin-top: 11px;
+    }
+  }
+
+  .percent-off2 {
+    color: #ff7d38;
+    font-family: Proxima;
+    font-size: 20px;
+    font-weight: normal;
+    margin-left: 35px;
+    margin-top: 70px;
+  }
+}

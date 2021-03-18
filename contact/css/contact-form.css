@@ -1,0 +1,10 @@
+.contact-form {
+  max-width: 1280px;
+  margin: 0 auto;
+}
+.contact-form .contact-us {
+  font-family: Proxima;
+  font-size: 30px;
+  font-weight: lighter;
+  margin-left: 150px;
+}

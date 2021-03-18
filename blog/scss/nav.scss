@@ -1,12 +1,10 @@
 nav {
-  width: 1280px;
+  width: 980px;
   height: 60px;
+  // background-color: cornflowerblue;
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
-}
-
-.borderBottom {
   border-bottom: black solid 2px;
   margin-top: 30px;
 }
@@ -44,4 +42,10 @@ nav {
   margin-top: 11px;
   width: 1px;
   background: #79addc;
+}
+
+@media only screen and (max-width: 1060px) {
+  nav {
+    width: 100%;
+  }
 }
